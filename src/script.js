@@ -1,4 +1,4 @@
-import * as THREE from '../node_modules/three/src/Three.js'
+import * as THREE from 'https://unpkg.com/three@0.156.1/build/three.module.js'
 
 
 const scene = new THREE.Scene()
