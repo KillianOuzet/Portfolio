@@ -7,7 +7,7 @@ const camera = new THREE.PerspectiveCamera(70, iw / ih)
 
 const geometry = new THREE.BoxGeometry(1, 1, 1)
 
-const texture = new THREE.TextureLoader().load('diamond.jpg')
+const texture = new THREE.TextureLoader().load('../public/diamond.jpg')
 const material = new THREE.MeshPhongMaterial({ map:texture })
 
 const mesh = new THREE.Mesh(geometry, material)
