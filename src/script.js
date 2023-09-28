@@ -27,7 +27,7 @@ loop()
 
 function loop() {
   requestAnimationFrame(loop)
-  mesh.rotation.x += 0.005
-  mesh.rotation.y += 0.01
+  mesh.rotation.x += 10
+  mesh.rotation.y += 10
   renderer.render(scene, camera)
 }
