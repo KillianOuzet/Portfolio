@@ -30,7 +30,7 @@ function loop() {
 }
 
 function computeGeometry() {
-  const space = 4, nb = 100, amp = 0.1, fre = 1, pi2 = Math.PI*2
+  const space = 20, nb = 400, amp = 0.1, fre = 1, pi2 = Math.PI*2
 
   const geometry = new THREE.BufferGeometry()
 
@@ -59,7 +59,7 @@ function computeGeometry() {
 }
 
 function animeGeometry(geometry, progress) {
-  const space = 4, nb = 100, amp = 0.1, pi2 = Math.PI*2
+  const space = 20, nb = 400, amp = 0.1, pi2 = Math.PI*2
   const phase = progress
   const fre = 0.8 + Math.cos(progress)/2
 
